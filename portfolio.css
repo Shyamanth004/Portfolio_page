@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+/* font-family: "Lacquer", system-ui; */
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+/* font-family: "Gochi Hand", cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+/* font-family: "Black Ops One", system-ui; */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+/* font-family: "Comic Neue", cursive; */
+body{
+    margin: 0px;
+    padding-top: 120px;
+    /* border: 0px; */
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149018547.jpg?w=1060&t=st=1714995264~exp=1714995864~hmac=a94ac131d265c2806c99be6ce5127eeb435dee9531e2ab9d5b63f55f4264cfc0");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149018547.jpg?w=1060&t=st=1714995264~exp=1714995864~hmac=a94ac131d265c2806c99be6ce5127eeb435dee9531e2ab9d5b63f55f4264cfc0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-left: 40px;
+    border-bottom: 1px solid lavender;
+    overflow: hidden;
+    z-index: 100;
+}
+#header h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lacquer", system-ui;
+    font-size: 40px;
+    flex-shrink: 0;
+    text-decoration: underline;
+}
+#header #header-sec{
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-around;
+    width: 850px;
+    font-family: "Black Ops One", system-ui;
+    font-size: 22px;
+    padding-right: 25px;
+}
+#about{
+    text-decoration: underline;
+}
+.header-links{
+    cursor: pointer;
+}
+#About{
+    width: auto;
+    height: 580px; /*580px*/
+    border: 1px solid lavender; /*1px*/
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s all ease;
+}
+#about1{
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 40px;
+    background-color: transparent;
+}
+#about1 h1{
+    font-family: "Gochi Hand", cursive;
+    font-size: 60px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    color: lavender;
+}
+#about1 p{
+    font-family: "Comic Neue", cursive;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgb(32, 32, 32);
+}
+#about2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about2 img{
+    width: 400px;
+    /* background-color: transparent;
+    background-blend-mode: overlay; */
+}
+span{
+    font-weight: bold;
+}
+#about2{
+    width: 50%;
+    background-color: transparent;
+}
+#Skills{
+    width: auto;
+    height: 0px; /*580px*/
+    border: 0px solid lavender; /*1px*/
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s all ease;
+}
+#skills1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    overflow: hidden;
+    
+}
+#skills1 img{
+    height: 450px;
+    width: 650px;
+    background-color: transparent;
+    transform: translateX(47px);
+}
+#skills2{
+    width: 50%;
+    padding-top: 60px;
+    padding-right: 20px;
+    background-color: transparent;
+}
+#skills2 h1{
+    font-family: "Gochi Hand", cursive;
+    margin-bottom: 60px;
+    font-size: 50px;
+    transform: translateX(80px);
+}
+#skills2 svg{
+    margin-right: 50px;
+    margin-bottom: 40px;
+    transform: translateX(80px);
+    box-shadow: 3px 3px 5px grey;
+    cursor: pointer;
+}
+#skills2 img{
+    margin-right: 50px;
+    margin-bottom: 40px;
+    transform: translateX(80px);
+    box-shadow: 3px 3px 5px grey;
+    cursor: pointer;
+}
+#Projects{
+    width: auto;
+    height: 0px; /*580px*/
+    border: 0px solid lavender; /*1px*/
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s all ease;
+}
+#projects1{
+    width: 40%;
+    padding-top: 150px;
+}
+#projects1 h1{
+    font-family: "Gochi Hand", cursive;
+    font-size: 100px;
+    transform: rotateZ(-20deg);
+    text-align: center;
+}
+#projects2{
+    width: 60%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#projects2 #p1{
+    height: 180px;
+    width: 90%;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid lavender;
+    padding-left: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
+#projects2 #p1 h1{
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
+#projects2 #p1 p{
+    font-family: "Comic Neue", cursive;
+    font-size: 18px;
+}
+#Resume{
+    width: auto;
+    height: 0px; /*580px*/
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s all ease;
+}
+#Resume #main{
+    height: 250px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid lavender;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+}
+#Resume #main h1{
+    transform: translateY(-20px);
+    font-family: "Gochi Hand", cursive;
+    font-size: 35px;
+}
+#Resume #main #button{
+    height: 45px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Comic Neue", cursive;
+    border: 1px solid lavender;
+    box-shadow: 3px 3px 5px grey;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+#Contact{
+    width: auto;
+    height: 0px; /*580px*/
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s all ease;
+}
+#Contact #main{
+    height: 250px;
+    width: 70%;
+    border: 1px solid lavender;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+}
+#Contact #main h1{
+    font-family: "Gochi Hand", cursive;
+    font-size: 45px;
+    text-align: center;
+}
+#Contact #main #cntsvg{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#Contact #main #cntsvg svg{
+    height: 70px;
+    width: 70px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#gmail{
+    position: relative;
+}
+#gmail-text{
+    position: absolute;
+    font-family: "Comic Neue", cursive;
+    font-weight: 600;
+    font-size: 20px;
+    bottom: 10px;
+    left: 180px;
+    opacity: 0;
+}
+footer{
+    height: 10px;
+    width: 100%;
+    transform: translateY(10px) translateX(-15px);
+    font-family: "Comic Neue", cursive;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
